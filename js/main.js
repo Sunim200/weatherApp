@@ -13,7 +13,6 @@ const weatherIcon = document.querySelector('.mainImg');
 async function checkWeather(city) {
     const response = await fetch(apiUrl + city + `&appid=${apiKey}`);
     var data = await response.json();
-    console.log(data);
 
     if (response.status == 404) {
         document.querySelector('.error').style.display = 'block';
