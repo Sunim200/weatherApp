@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <section class="card">
+        <div class="byem">
+            <p>By.<span>Em</span></p>
+        </div>
+        <main class="weather">
+            <h2 class="city">Köln</h2>
+            <img src="./img/sonne.png" alt="" class="mainImg">
+            <h1 class="temp">20°C</h1>
+            <div class="details">
+                <div class="column">
+                    <img src="./img/feucht.png" alt="" class="feuchtImg">
+                    <div>
+                        <p class="feuchtigkeit">70%</p>
+                        <p>Luft Feuchtigkeit</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <img src="./img/windKmh.png" alt="" class="windStearkeImg">
+                    <div>
+                        <p class="windStearke">10 Km/h</p>
+                        <p>Wind Stärke</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <div class="search">
+            <input type="text" placeholder="Stadt eingeben:" spellcheck="false">
+            <button><img src="./img/search.png" alt=""></button>
+        </div>
+        <div class="error">
+            <p>Falsche Eingabe...</p>
+        </div>
+    </section>
+    <script src="./js/main.js"></script>
+</body>
+</html>
