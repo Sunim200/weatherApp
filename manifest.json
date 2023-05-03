@@ -1,0 +1,10 @@
+{
+  "name": "WetterApp",
+  "short_name": "AppByEm",
+  "theme_color": "#a321f3",
+  "background_color": "#000000",
+  "display": "fullscreen",
+  "scope": "/",
+  "start_url": "/"
+}
+
